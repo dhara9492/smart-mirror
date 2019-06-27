@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Smart Mirror</title>
+<link href="css/app.css" rel="stylesheet"></head>
+
+<body>
+    <div class="container mt-4">
+        <div class="card border-0 shadow">
+            <div class="card-header bg-info">
+                <h3 class="mb-0 text-white">Create New User</h3>
+            </div>
+            <div class="card-body">
+                <form id="uploads-form">
+                    <div class="form-group">
+                        <label class="" for="name">Name:</label>
+                        <input class="form-control" type="text" name="name" placeholder="John Doe" />
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="calendar-link">Calendar Link:</label>
+                        <input class="form-control" type="text" name="calendar-link" placeholder="Calendar link" />
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="country">Country:</label>
+                        <input class="form-control" type="text" name="country" placeholder="Country" />
+                    </div>
+                    <div class="form-group">
+                        <label class="" for="city">City:</label>
+                        <input class="form-control" type="text" name="city" placeholder="City" />
+                    </div>
+                    <div class="input-group">
+                        <div class="custom-file">
+                            <input multiple type="file" class="custom-file-input" id="images"
+                                aria-describedby="inputGroupFileAddon04">
+                            <label class="custom-file-label" for="inputGroupFile04">Choose Images</label>
+                        </div>
+                    </div>
+                    <div id="upload"></div>
+                    <div class="text-center">
+                        <button type="submit" class="btn mt-4 btn-outline-info btn-block">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="js/app.js"></script></body>
+
+</html>
